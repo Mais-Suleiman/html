@@ -1,0 +1,47 @@
+!DOCTYPE html>
+<html>
+<head>
+<title>task1</title>
+
+</head>
+<body>
+ 
+  <img src="picture.jpg" width="125" height="125">
+     
+    <label for="name">Enter your name:</label>
+   <input type="text" id="name"><br><br>
+   <label for="email"Enter your email:</label>
+   <input type="email"id="passworde"><br><br>
+    <labelfor="tell">&ensp;&ensp;Tell us about you:</label>
+   <textarea input tybe="text" id="info" cols="25" rows="4" > </textarea><br><br>
+     
+  <laple for="exercise">Do you exercise at home?</label>
+    <input type="radio" id="exercise">yes>
+    <input type="radio" id="exercise">No<br><br>
+   
+  <label for="Read">How do you like to read your favorite topics? </label><br>
+<input type="checkbox" id="Read">
+<label for="Read">Books</label>
+<input type="checkbox"id="Read">
+<label for="Read">Online reources</label>
+<input type="checkbox"id="Read">
+<label for="Read">Phone apps</label>
+<input type="checkbox"id="Read">
+<label for="Read"> Magazaines</label><br><br>
+     
+    <label for="film">what genre of movies do you like?</label>
+  <select id="mov" name="mov">
+    <option value="comedy">comedy</option>
+    <option value="romance">romance</option>
+    <option value="thriller">thriller</option>
+    <option value="horror">horror</option>
+  </select><br><br>
+ <input type="button" value="submit form"><br><br>
+ <p> Learn more about us:</p>
+ <video width="320" height="240" controls>
+ <source src="video.mp4" type="video/mp4">
+ </video>
+ 
+
+</body>
+</html>
